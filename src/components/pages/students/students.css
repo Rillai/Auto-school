@@ -1,0 +1,208 @@
+.advice .container{
+    margin: 0 20%;
+}
+.advice li{
+    padding:10px 0px 35px ;
+}
+.advice span{
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    background-color: #008ad1;
+}
+.download{
+    margin-top: 25px;
+    display: block;
+}
+.advice strong{
+    font-size: 18px;
+    line-height: 30px;
+}
+.advice li p{
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height:40px;
+}
+.advice h2{
+    color: red;
+    font-family: 'webFont';
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+.divflex div{
+    display: flex;
+    align-items: baseline;
+}
+.advice li:nth-child(odd){
+    background-image: url(../../../assets/img/Top-Grid-Layer.png);
+}
+.flex-between-doc{
+    display: flex;
+    flex-flow: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.flex-between{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.flex-between img{
+    width: 29.33%;
+    margin: 1% 2%;
+    height: 290px;
+}
+.width630{
+    margin: 25px 0;
+    border: 3px solid #008ad1;
+    display: flex;
+    align-items: center;
+    width: 630px;
+}
+.width630 p{
+    width: 100%;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.width630 img{
+    width: auto;
+    height: 45px;
+}
+.height135 .bg-azure{
+    padding: 43px 30px;
+}
+.bg-azure{
+    padding: 10px 30px;
+    background-color: #008ad1;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.gallery{
+    padding-top: 10px;
+    width: 790px;
+    margin: auto;
+    height: 400px;
+}
+.collapse{
+    cursor: pointer;
+    background-color: rgba(107, 213, 255, 0.705);
+    padding: 10px;
+    margin-top: 5px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.collapse_text h2{
+    color: black;
+    text-align: center;
+}
+.collapse:hover{
+    background-color: rgb(67, 175, 218);
+}
+.collapse_text{
+    padding: 10px;
+    background-color: rgba(107, 213, 255, 0.705);
+}
+  @media only screen and (max-width : 1824px) {
+    .flex-between-doc, .flex-between{
+        justify-content: center;
+    }
+  }
+  /* Large Devices, Wide Screens */
+  @media only screen and (max-width : 1250px) {
+    .advice li div{
+        margin: 12px 0;
+    }
+    .advice li div div p{
+        line-height: 22px;
+    }
+  }
+  
+  /* Medium Devices, Desktops */
+  @media only screen and (max-width : 992px) {
+    .flex-between img{
+        height: 200px;
+    }
+  }
+  
+  /* Small Devices, Tablets */
+  @media only screen and (max-width : 768px) {
+    .width630{
+        width: 280px;
+    }
+    .width630 p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .bg-azure{
+        padding: 5.4px 15px;
+    }
+    .height135 .bg-azure{
+        padding: 65px 15px;
+    }
+    .flex-between{
+        flex-wrap: wrap;
+    }
+    .flex-between img{
+        height: 150px;
+    }
+    .advice .container{
+        margin: 0 10%;
+    }
+    .gallery{
+        width: 790px;
+        height: 600px;
+    }
+    .gallery{
+        width: 450px;
+    }
+  }
+  
+  /* Extra Small Devices, Phones */
+  @media only screen and (max-width : 575px) {
+    .advice li div{
+        margin: 10px 0;
+    }
+    .advice h2{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .advice li div div{
+        margin: 10px 0;
+    }
+    .advice li div div p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .advice li p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .services_h{
+        margin: 0 10%;
+        font-size: 14px;
+    }
+    .flex-between img{
+        width: 160px;
+    }
+    .padding-top strong{
+        line-height: 24px;
+        font-size: 14px;
+    }
+    .gallery{
+        width: 300px;
+    }
+    .advice h2{
+        font-size: 22px;
+    }
+    .divflex div {
+        align-items: center;
+    }
+  }

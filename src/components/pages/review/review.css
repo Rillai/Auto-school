@@ -1,0 +1,210 @@
+.review_list_main{
+    padding: 40px 10px 0 10px;
+    width: 895px;
+    background-color: #cdf0ff;
+    background-image: url(../../../assets/img/Our-services-layer.png);
+    border-top-right-radius : 40px;
+    border-top-left-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.review_block_main{
+    box-shadow: 0px 13px 20px 0px rgba(50, 50, 50, 0.31);
+    position: relative;
+    background-color: #d9eef8;
+    margin: 20px 0;
+    padding: 10px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: inset 4px transparent;
+}
+.review_bottom_main{
+    height: 100px!important;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.text_18px{
+    font-weight: bold;
+    font-size: 18px;
+}
+.formOnReview{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 890px;
+}
+.formOnReview h2{
+    margin: 50px 0;
+}
+.formOnReview textarea{
+    resize: none;
+    height: 155px;
+    padding: 10px;
+    width: 870px;
+    border: 3px solid #008ad1;
+    font-size: 18px;
+    font-weight: 500;
+}
+.space_betweem{
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.space_betweem div{
+    display: flex;
+}
+.space_betweem input{
+    font-weight: 500;
+    font-size: 18px;
+    padding: 17px;
+    width: 300px;
+    border: 3px solid #008ad1;
+}
+.awards_container{
+    height: 360px;
+    width: 100%;
+    background-color: #0089d2;
+}
+.awards_container div{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.awards_container div img{
+    margin-top: 25px;
+    width: 24%;
+    height: 300px;
+}
+.review_block_main:hover{
+    border: inset 4px rgba(0, 0, 0, 0.5);
+}
+.review_bottom_main span{
+    font-size: 30px;
+    width: 20px;
+    cursor: pointer;
+    margin: 25px 10px;
+    transition: all 0.3s ease-out 0s;
+    border-bottom: 2px solid transparent;
+}
+.review_bottom_main span:hover{
+    margin-bottom: 50px;
+    transform: scale(1.3);
+    border-bottom: 2px solid red;
+}
+@media only screen and (max-width : 1674px) {
+  
+  }
+  /* Large Devices, Wide Screens */
+  @media only screen and (max-width : 1450px) {
+    .awards_container div img{
+        width: 27%;
+    }
+  }
+  
+  /* Medium Devices, Desktops */
+  @media only screen and (max-width : 1070px) {
+    .awards_container div img{
+        margin-top: 60px;
+        height: 250px;
+    }
+    .review_list_main{
+        width: 405px;
+    }
+    .formOnReview{
+        width: 490px;
+    }
+    .space_betweem{
+        flex-direction: column;
+    }
+    .space_betweem div{
+        margin-top: 10px;
+    }
+    .space_betweem input{
+        width: 100%;
+    }
+    .section_costs{
+        margin-top: 40px;
+    }
+    .formOnReview textarea{
+        width: 470px;
+    }
+  }
+  
+  /* Small Devices, Tablets */
+  @media only screen and (max-width : 768px) {
+    .awards_container div img{
+        height: 200px;
+        margin: 40px 0;
+    }
+    .awards_container{
+        height: 300px;
+    }
+    .formOnReview h2{
+        margin: 30px 0;
+    }
+  }
+  
+  /* Extra Small Devices, Phones */
+  @media only screen and (max-width : 575px) {
+    .awards_container div img{
+        height: 70px;
+        margin-top: 30px;
+        width: 20%;
+    }
+    .formOnReview{
+        width: 280px;
+    }
+    .space_betweem{
+        height: 140px;
+    }
+    .space_betweem input{
+        width: 61%;
+        padding: 14px 17px;
+    }
+    .space_betweem img{
+        width: 70px;
+    }
+    .awards_container{
+        height: 130px;
+    }
+    .review_list_main{
+        background-size: 1545px;
+        padding-top: 15px;
+        width: 260px;
+    }
+    .review_bottom_main{
+        background-size: 1545px;
+    }
+    .review_block_main{
+        width: 80%;
+    }
+    .text_18px{
+        font-size: 12px;
+        line-height: 13px;
+    }
+    .formOnReview textarea{
+        height: 100px;
+        width: 260px;
+        line-height: 16px;
+    }
+    .review-and-photo_wrapper{
+        padding: 0px 0!important;
+    }
+    .review_bottom_main{
+        height: 60px!important;
+        align-items: center;
+    }
+    .review_bottom_main span{
+        margin: 15px 7px;
+    }
+    .review_bottom_main span:hover{
+        margin-bottom: 30px;
+        transform: scale(1.1);
+    }
+  }

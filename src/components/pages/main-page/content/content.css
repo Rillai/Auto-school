@@ -1,0 +1,228 @@
+.Content{
+    height: 755px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ButtonRed:hover{
+    background-color: #df565d;
+}
+.Content_Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+}
+.Content_Learn_Text{
+    text-transform: uppercase;
+    margin-top: 95px;
+    letter-spacing: 0.02em;
+    font-weight: bold;
+    font-size: 24px;
+}
+.Content_Ul_Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 550px;
+    margin-top: 160px;
+}
+.Content_Ul_Text{
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    font-weight: bold;
+    font-size: 23px;
+    letter-spacing: 0.01em;
+}
+.Content_Action{
+    display: flex;
+    justify-content: flex-end;
+}
+.Content_Action_Wrapper{
+    background-image: url(../../../../assets/img/Action.png);
+    background-size: 100% 760px;
+    width: 750px;
+    height: 400px;
+
+}
+.Content_Action_Container{
+    display: flex;
+    position: relative;
+    height: 100%;
+    line-height: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.Content_Action_Text{
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 900;
+}
+.Content_Action_left25px{
+    position: relative;
+    left: 25px;
+}
+.Content_Action_Text_Caps{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.Content_Action_Text_Cost{
+    color: red;
+    font-size: 36px;
+}
+.Content_Action_Text_Caps{
+    width: 62%;
+    margin-left: 5%;
+}
+.uncaps{
+    font-size: 30px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    width: 62%;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 5%;
+    justify-content: space-between;
+}
+.clock{
+    position: relative;
+    height: 130px;
+    bottom: 20px;
+    left: 10px;
+}
+  /* Large Devices, Wide Screens */
+@media only screen and (max-width : 1250px) {
+    .Content_Container{
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .Content_Ul_Container{
+        margin-top: 0;
+        order: 1;
+        height: auto;
+    }
+    .Content_Ul{
+        display: none;
+    }
+    .Content_Action{
+        justify-content: center;
+    }
+    .Content_Action_Wrapper{
+        height: 320px;
+        width: 650px;
+    }
+    .Content_Action_Container{
+        top: 30px;
+        height: auto;
+    }
+    .flex{
+        width: 70%;
+    }
+    .Content_Action_Text_Caps{
+        width: 70%;
+    }
+    .Content{
+        height: 660px;
+    }
+}
+@media only screen and (max-width : 690px) {
+    .Content_Action_Container{
+        width: 100vw;
+        top: 50px;
+    }
+    .Content_Action_Wrapper{
+        height: 280px;
+        width: 100vw;
+        background-size: 100vw 650px;
+    }
+    .Content_Action_Text{
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .Content_Action_Text_Cost{
+        font-size: 28px;
+    }
+    .uncaps{
+        text-transform: none;
+        font-size: 23px;
+    }
+    .clock{
+        width: 100px;
+        height: 100px;
+    }
+    .flex{
+        height: 70px;
+    }
+    .flex .Content_Action_Text{
+        width: 330px;
+    }
+}
+@media only screen and (max-width : 560px) {
+    .clock{
+        right: 60px;
+    }
+    .Content_Action_Text{
+        font-size: 12px;
+        line-height: 30px;
+    }
+    .Content_Learn_Text{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width : 510px) {
+    .clock{
+        width: 80px;
+        height: 60px;
+        bottom: 10px;
+    }
+    .Content_Action_Container{
+        top: 15px;
+        height: 100%;
+        width: unset;
+        min-width: 320px;
+    }
+    .Content_Action_Text{
+        font-size: 10px;
+        line-height: 18px;
+    }
+    .flex .Content_Action_Text{
+        width: 290px;
+        line-height: 16px;
+    }
+    .Content_Action_Text_Cost{
+        font-size: 18px;
+    }
+    .uncaps{
+        text-transform: none;
+        font-size: 18px;
+    }
+    .flex{
+        margin-left: 0;
+        width: 84%;
+        height: 30px;
+        padding-bottom: 15px;
+    }
+    .Content_Action_Text_Caps {
+        width: 75%;
+        margin-left: 0;
+    }
+    .Content_Action_Wrapper{
+        background-size: 100% 400px;
+        height: 160px;
+        width: 100vw;
+        min-width: 320px;
+    }
+    .Content_Learn img{
+        width: 300px;
+    }
+    .Content{
+        height: 500px;
+    }
+}

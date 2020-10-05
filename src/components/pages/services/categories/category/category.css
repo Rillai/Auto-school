@@ -1,0 +1,525 @@
+@font-face{
+    font-family: "WebFont";
+    src: url(../../../../../assets/fonts/ofont.ru_VerbenaC.ttf);
+    font-weight: bold;
+}
+.categoryB{
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+.category_h1{
+    margin: 13px 0;
+}
+.category_Links{
+    padding-top:20px;
+    font-weight: 400;
+}
+.category_Bottom{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.category_box{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Category_File_container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.bor{
+    border: red solid 3px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.cost_box{
+    margin: 0 15px;
+}
+.cost{
+    font-size: 36px;
+}
+.cost_box_table{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+    width: 340px;
+}
+.lessons_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 500px;
+}
+.redBox{
+    background-color: red;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    width: 305px;
+    padding: 20px;
+}
+.AdditionalLessons li{
+    font-size: 18px;
+}
+.AdditionalLessons_Url{
+    font-size: 15px;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+.Category_Button{
+    border: 0;
+    display: block;
+    text-decoration: none;
+    transition: all 0.3s ease-out 0s;
+    padding: 16px 0;
+    width: 343px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: #ff353cbb;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.Category_Button:hover{
+    background-color: red;
+}
+.margin_bottom_10px{
+    margin-bottom: 10px;
+}
+.borderBlue{
+    background-image: url(../../../../../assets/img/category-grid.png);
+    border: solid 2px #008ad1;
+    padding: 10px 7px;
+    line-height: 23px;
+}
+.formOnStuding_block{
+    background-image: url(../../../../../assets/img/Our-services-layer.png);
+}
+.formOnStuding select{
+    width: 530px;
+    line-height: 1;
+    -webkit-appearance: none;
+    text-decoration: none;
+}
+.formOnStuding_input{
+    text-decoration: underline;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.06em;
+    margin: 20px 0;
+    border: 2px solid #008ad1;
+    width: 460px;
+    padding: 15px 33px;
+}
+.formOnStuding p{
+    color: red;
+    margin: 37px 0;
+    font-size: 24px;
+    font-family: "WebFont";
+}
+.formOnStuding{
+    padding: 100px;
+    background:url(../../../../../assets/img/Category-background.png) no-repeat center / cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.information_block{
+    padding: 130px 0;
+}
+.information_block_container{
+    display: flex;
+    flex-direction: column;
+}
+.category_table{
+    background-image: url(../../../../../assets/img/Top-Grid-Layer.png);
+}
+.category_table td{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 15px 14px;
+    width: 235px;
+    line-height: 30px;
+    min-width: 235px;
+    border: 2px red solid;
+}
+.information_block_top{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.information_block_top h2{
+    text-align: center;
+}
+.information_block_bottom h2{
+    text-align: center;
+}
+.data{
+    width: 50%;
+    padding-left: 15px;
+    min-width: 450px;
+}
+.data_container{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+.data_hr{
+    margin: 5px 0;
+    color: #b1dbf1;
+    background-color: #b1dbf1;
+    border-color: #b1dbf1;
+}
+.select{
+    background: url(../../../../../assets/img/tiangle.png) no-repeat;
+    background-position: center;
+    background-size: 540px;
+    color: gray;
+}
+.select:focus{
+    color: black;
+}
+.information_action{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 340px;
+    justify-content: space-between;
+}
+.margin_top_25px{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.map_block{
+    background: url(../../../../../assets/img/Our-services-layer.png);
+}
+.map_block_wrapper{
+    background: url(../../../../../assets/img/background_car.png);
+    background-size: 100% 100%;
+    padding-bottom: 30px;
+}
+.map{
+    border: 2px solid #008ad1;
+}
+.map_block h2{
+    padding-top: 35px;
+    text-align: center;
+}
+.map_container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.review-and-photo{
+    padding: 50px 0 20px;
+    position: relative;
+}
+.review-and-photo_wrapper{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.review{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.review h2{
+    margin-bottom: 20px;
+}
+.review_list{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    position: relative;
+    overflow-y: scroll;
+    padding: 20px;
+    width: 575px;
+    height: 605px;
+    background-color: #cdf0ff;
+    background-image: url(../../../../../assets/img/Our-services-layer.png);
+    border-top-right-radius : 40px;
+    border-top-left-radius: 40px;
+}
+.review_wrapper{
+    display: flex;
+    flex-direction: column;
+
+}
+.review_bottom{
+    background-color: #cdf0ff;
+    width: 100%;
+    height: 15%;
+    border-bottom-right-radius : 40px;
+    border-bottom-left-radius: 40px;
+    background-image: url(../../../../../assets/img/Our-services-layer.png);
+}
+.review_block{
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.review_header{
+    height: 45px;
+}
+.content{
+    font-weight: 500;
+    font-size: 20px;
+    flex-grow: 1;
+}
+.review_img{
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+}
+.review_header strong{
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+}
+.review_header b{
+    position: absolute;
+    right: 20px;
+}
+.photo{
+    width: 715px;
+}
+.photos{
+    width: 725px;
+}
+.photo h2{
+    margin-bottom: 75px;
+}
+.margin-left30{
+    margin-left: 30px;
+}
+.bigFont{
+    font-weight: 900;
+    font-size: 150px;
+    margin-top: -20px;
+}
+.textblock{
+    display: block;
+    text-align: left;
+    margin-top: 35px;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    border-bottom: 3px red solid;
+}
+.liflex{
+    margin-left: 30px;
+    display: flex;
+    align-items: flex-start;
+}
+@media only screen and (max-width : 1556px) {
+    .information_block_top{
+        justify-content: center;
+    }
+    .information_action{
+        margin-bottom: 10px;
+    }
+    .information_block{
+        padding: 80px 0;
+    }
+    .data{
+        padding: 0 15px;
+    }
+    .category_Bottom{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .review-and-photo_wrapper{
+        flex-wrap: wrap;
+    }
+    .photo h2{
+        padding-top: 40px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 901px) {
+    .category_Bottom{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cost_box{
+        padding-top: 40px;
+        text-align: center;
+    }
+    .d901{
+        display: none;
+    }
+    .lessons_box{
+        text-align: center;
+        height: 330px;
+    }
+    .formOnStuding{
+        padding: 30px;
+    }
+    .map_container{
+        flex-wrap: wrap;
+    }
+    .margin-left30{
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    .map_block{
+        height: auto;
+    }
+}
+@media only screen and (max-width : 890px) {
+    .review_list{
+        width: 255px;
+    }
+    .content{
+        height: 80%;
+        width: 100%;
+        font-size: 13px;
+    }
+    .review_header strong{
+        font-size: 16px;
+    }
+    .review_header b{
+        font-size: 14px;
+    }
+    .review_block{
+        padding: 0;
+    }
+    .photos{
+        margin: auto;
+        width: 450px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 575px) {
+    .review_list{
+        height: 400px;
+    }
+    .review_header{
+        height: 25px;
+    }
+    .cost_box .Category_Button{
+        margin: auto;
+        font-size: 15px;
+    }
+    .cost_box{
+        margin: 0;
+        width: 100%;
+    }
+    .category_box{
+        text-align: center;
+        align-items: center;
+    }
+    .category_box h3{
+        font-size: 17px;
+    }
+    .file{
+        margin: 0;
+    }
+    .lessons_box{
+        width: 100%;
+        align-items: center;
+    }
+    .redBox{
+        width: 250px;
+        font-size: 16px;
+    }
+    .kategorry{
+        margin-top: 18px;
+        width: 65%;
+    }
+    .drive-license{
+        width: 80%;
+    }
+    .cost_box_table{
+        width: 285px;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    .text{
+        font-size: 15px;
+        padding: 10px 0;
+    }
+    .formOnStuding p{
+        margin: 15px 0;
+        text-align: center;
+    }
+    .formOnStuding_input{
+        width: 230px;
+    }
+    .formOnStuding .select{
+        width: 300px;
+    }
+    .formOnStuding h2{
+        font-size: 15px;
+    }
+    .category_table td{
+        font-size: 13px;
+        min-width: 120px;
+        line-height: 16px;
+        padding: 7px;
+    }
+    .information_action{
+        height: 270px;
+    }
+    .data{
+        min-width: 280px;
+    }
+    .data h2{
+        font-size: 18px;
+    }
+    .data_container ul li{
+        font-size: 10px;
+    }
+    .information_block{
+        padding: 20px 0;
+    }
+    .photos{
+        margin: auto;
+        width: 300px;
+    }
+    .photo h2{
+        margin-bottom: 50px;
+    }
+    .category_h1{
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    .review_header strong{
+        font-size: 12px;
+    }
+    .review_header b{
+        font-size: 9px;
+    }
+    .bigFont{
+        font-size: 100px;
+    }
+    .textblock{
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .photo h2 {
+        padding-top: 10px;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .map{
+        height: 300px;
+    }
+}

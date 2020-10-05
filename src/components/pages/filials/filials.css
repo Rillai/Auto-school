@@ -1,0 +1,54 @@
+.filials_main1, .filials_main2{
+    padding-bottom: 10px;
+}
+.filials_main1{
+    background-color: #d9eef8;
+}
+.page_blocks:hover .filials_main1 {
+    background: #fff;
+    }
+.page_blocks .filials_main1:hover, .filials_main2:hover {
+    background: #d9eef8;
+} 
+.filials_header{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.filials_h2_main{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.filials_h2{
+    color: red;
+    font-family: 'webFont';
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+.filials_map{
+    margin-top: 25px;
+    width: 100%;
+    height: 775px;
+}
+.filials_map_wrapper{
+    cursor: pointer;
+    position: absolute;
+    z-index:999;
+    opacity:0.4;
+    background-color:white;
+    width:100%;
+    height:775px;
+}
+.position_relative{
+    position: relative;
+}
+.exit{
+    cursor: pointer;
+    z-index: 99999;
+    right:35px;
+    top: 15px;
+    font-size: 70px;
+    position: absolute;
+}

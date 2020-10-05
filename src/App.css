@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+.app-wrapper{
+  display: grid;
+  grid-template-areas:" h "
+                      " n "
+                      " c "
+                      " f ";
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto auto;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-wrapper-content{
+  grid-area: c;
+  min-width: 100%;
+  min-height: 500px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container{
+  margin: 0 15%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.padding-top{
+  padding-top: 2%;
+}
+.Background{
+  background:url(./assets/img/headerbg.png) no-repeat;
+  background-size: 100% 100%;
+}
+.contentbg{
+  background:url(./assets/img/contentbg.png) no-repeat;
+  background-size: 100% 100%;
+}
+.page{
+  background-color: white;
+  min-height: 900px;
+}
+.Contacts{
+  font-size: 16px;
+  font-weight: bold;
+}
+.Contacts_Container_Logo{
+  font-weight: 500;
+  max-width: 344px; 
+  min-width: 325px;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.Contacts_Logo{
+  width: 30px;
+  height: 30px;
+}
+.file{
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  border: 3px solid #62b9e7;
+  border-radius: 50%;
+  width: 80px;
+  height: 75px;
+  margin: auto;
+  background-image: url(./assets/img/file_grid.png);
+}
+.file:hover{
+  background-color: #62b9e7;
+  background-image: unset;
+}
+.text{
+  font-size: 1.2em;
+}
+.textRed{
+  color: red;
+}
+.textDarkRed{
+  color: #621515;
+}
+.textLightRed{
+  color: #8e0c11;
+}
+.textOrange{
+  color: #d25c5c;
+}
+.textWhite{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.textBlue{
+  color: #065f89;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.textАzure{
+  color: #62b9e7;
 }

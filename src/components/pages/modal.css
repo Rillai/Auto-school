@@ -1,0 +1,46 @@
+.ModalWindow{
+    position: fixed;
+    height:100%;
+    width: 100%;
+    min-width: 320px;
+    z-index: 99999999;
+    background-color: rgba(0, 0, 0, 0.452);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ModalWindowForm{
+    background-image: url(../../assets/img/formbg.png)!important;
+    width: 100%;
+    min-height: 60%;
+}
+.close{
+    background-color: red;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: 100px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    width:70px;
+    line-height: 70px;
+    border-radius: 50%;
+}
+.onlineStuding{
+    width: unset;
+    min-height: unset;
+}
+.onlineStuding_h1{
+    padding: 75px 0;
+}
+.formOnStuding h2{
+    text-align: center;
+}
+@media only screen and (max-width : 850px) {
+    .close{
+        font-size: 30px;
+        margin-right: 30px;
+        width:40px;
+        line-height: 40px;
+    }
+}

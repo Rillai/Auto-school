@@ -1,0 +1,93 @@
+.OnNote{
+    height: 100%;
+    min-height: 710px;
+}
+.OnNote_Top{
+    text-align: center;
+    padding: 30px 0;
+}
+.OnNote_Wrapper{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.OnNote_Container{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.video{
+    min-width:700px; 
+    height:525px;
+    margin-bottom: 15px;
+}
+.OnNote_TextAlignCenter{
+    text-align: center;
+    font-size: 23px;
+}
+.OnNote_TextAlignCenter img{
+    border: 1px solid black;
+}
+.OnNote_Contacts_Logo{
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+@media only screen and (max-width : 1400px) {
+    .OnNote_Wrapper{
+        flex-flow: wrap;
+    }
+    .OnNote_Container{
+        margin-left:0;
+    }
+    .OnNote_Container h3{
+        padding: 15px 0;
+    }
+}
+@media only screen and (max-width : 1000px) {
+    .OnNote h3{
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .OnNote_TextAlignCenter img{
+        width: 190px;
+    }
+    .kartinka{
+        width: 400px!important;
+    }
+    .video{
+        min-width: 450px; 
+        height: 325px;
+        margin-bottom: 15px;
+    }
+}
+@media only screen and (max-width : 510px) {
+    .OnNote h3{
+        padding-bottom: 0px;
+    }
+    .OnNote_TextAlignCenter img{
+        width: 128px;
+    }
+    .kartinka{
+        width: 280px!important;
+    }
+    .video{
+        min-width: 350px; 
+        height: 260px;
+    }
+    .OnNote_Contacts_Logo{
+        width: 290px;
+        font-size: 14px!important;
+    }
+    .OnNote_Contacts_Logo img{
+        width: 30px;
+    }
+}
+@media only screen and (max-width : 400px) {
+    .video{
+        min-width: 240px; 
+        height: 220px;
+    }
+}

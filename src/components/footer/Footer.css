@@ -1,0 +1,139 @@
+footer{
+    position: relative;
+    grid-area: f;
+    font-family: 'Montserrat';
+    height: 100%;
+    background-color: #065f89;
+}
+.Footer_Wrapper{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.Footer_Logo{
+    margin-top: 45px;
+    min-width: 153px;
+}
+.Footer_Text li a{
+    font-weight: 600;
+    font-size: 12px;
+    color: white;
+    transition: all 0.3s ease-out 0s;
+}
+.Footer_Text li a:hover{
+    border-bottom: 1px solid #aee3fc;
+    color: #aee3fc;
+}
+.Footer_Text li{
+    padding: 7px 0;
+}
+.Footer_Make_And_leed{
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+.Footer_Text a{
+    text-transform: uppercase;
+}
+.Footer_Wrapper .Contacts_Container_Logo{
+    margin-bottom: 15px;
+}
+.b805{
+    display: none;
+}
+.b660{
+    display: none;
+}
+.d660{
+    font-size: 14px; 
+    font-weight: bold;
+    color: white;
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .Footer_Wrapper{
+        flex-wrap: wrap;
+    }
+    .Footer_Wrapper .Footer_Text{
+        padding: 0 15px;
+    }
+    .Contacts_ul{
+        margin: 25px auto 0 auto;
+    }
+    .Footer_Make_And_leed{
+        padding-top: 40px;
+    }
+    
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 805px) {
+    .d805{
+        display: none;
+    }
+    .Contacts_ul{
+        margin: unset;
+    }
+    .paddingtop20{
+        margin-top:20px;
+    }
+    .b805{
+        position: relative;
+        display: block;
+        height: 50px;
+    }
+    .Footer_Wrapper ul{
+        width: 50%;
+        padding: 0!important;
+    }
+    .Footer_Logo_mobile{
+        top: 10px;
+        right: 10px;
+        position: absolute;
+        width: 50px;
+    }
+    .Footer_Make_And_leed img{
+        width: 80vw;
+    }
+    .Footer_Wrapper .Contacts_Container_Logo{
+        padding-top: 20px;
+        min-width: 300px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 660px) {
+    .d660{
+        display: none;
+    }
+    .Footer_Wrapper .Contacts_Container_Logo{
+        min-width: 140px;
+        max-width: 50px;
+        margin-left: auto;
+    }
+    .b660{
+        display: flex;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 575px) {
+
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .Footer_Text li a{
+        font-size: 10px!important;
+    }
+    .paddingtop20 li{
+        font-size: 12px;
+    }
+    .Contacts_ul .Contacts {
+        padding: 4px 0;
+    }
+}
